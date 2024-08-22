@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "description": "A MetaMask Snap to collect and manage referral links.",
+  "proposedName": "ReferralSnap",
+  "source": {
+    "shasum": "uFXUPN7PeKX4EOcjRfnwRQRP32REbMEdefVOmTV5Zso=",
+    "location": {
+      "npm": {
+        "packageName": "referral-snap",
+        "filePath": "./dist/bundle.js",
+        "registry": "https://registry.npmjs.org"
+      }
+    }
+  },
+  "initialPermissions": {
+    "wallet_requestSnaps": {},
+    "wallet_sendDomainMetadata": {},
+    "endowment:network-access": {},
+    "endowment:storage": {},
+    "snap_confirm": {}
+  },
+  "manifestVersion": "0.1"
+}
